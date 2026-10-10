@@ -32,12 +32,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mjakl/pi-watch.git"
+    "url": "git+https://github.com/hoangvu12/pi-watch.git"
   },
   "bugs": {
-    "url": "https://github.com/mjakl/pi-watch/issues"
+    "url": "https://github.com/hoangvu12/pi-watch/issues"
   },
-  "homepage": "https://github.com/mjakl/pi-watch#readme",
+  "homepage": "https://github.com/hoangvu12/pi-watch#readme",
   "publishConfig": {
     "access": "public"
   },
