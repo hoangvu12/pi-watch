@@ -1,0 +1,68 @@
+{
+  "name": "@mjakl/pi-watch",
+  "version": "0.1.0",
+  "description": "Monitor extension for the Pi coding agent: notify the session when a background command finishes, an external process exits, or a file changes.",
+  "type": "module",
+  "main": "index.ts",
+  "files": [
+    "index.ts",
+    "config.ts",
+    "output.ts",
+    "render.ts",
+    "tools.ts",
+    "watch.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "tsc --noEmit"
+  },
+  "keywords": [
+    "pi",
+    "watch",
+    "monitor",
+    "background",
+    "pi-package"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjakl/pi-watch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mjakl/pi-watch/issues"
+  },
+  "homepage": "https://github.com/mjakl/pi-watch#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^0.87.0",
+    "@earendil-works/pi-tui": "^0.87.0",
+    "@types/node": "^25.2.3",
+    "typebox": "^1.3.6",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": ">=0.87.0",
+    "@earendil-works/pi-tui": ">=0.87.0",
+    "typebox": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-coding-agent": {
+      "optional": true
+    },
+    "@earendil-works/pi-tui": {
+      "optional": true
+    },
+    "typebox": {
+      "optional": true
+    }
+  }
+}
